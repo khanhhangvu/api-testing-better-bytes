@@ -1,0 +1,27 @@
+1. https://www.base64encode.org/ 
+
+- chuỗi username:password
+bba_academy:a102_class_secret
+
+- basic auth token
+YmJhX2FjYWRlbXk6YTEwMl9jbGFzc19zZWNyZXQ=
+
+-> 
+Basic YmJhX2FjYWRlbXk6YTEwMl9jbGFzc19zZWNyZXQ=
+
+2. Thực hiện request trong postman tới địa chỉ https://httpbin.org/basic-auth/bba_academy/a102_class_secret 
+2.1. Cách 1: 
+Method: GET
+URL: https://httpbin.org/basic-auth/bba_academy/a102_class_secret
+Authorization: No Auth
+Headers: 
+- Key: Authorization
+- Value: Basic YmJhX2FjYWRlbXk6YTEwMl9jbGFzc19zZWNyZXQ=
+
+2.2. Cách 2: 
+Method: GET
+URL: https://httpbin.org/basic-auth/bba_academy/a102_class_secret
+Authorization: 
+- Type: Basic Auth
+- username: bba_academy
+- password: a102_class_secret

@@ -1,0 +1,36 @@
+Website: https://pw-practice-dev.playwrightvn.com/wp-login.php
+Username: a101
+Password: !NE%Mdymzat@LWPaQKPau5JJ
+
+name = 
+
+<form name="loginform" id="loginform" action="https://pw-practice-dev.playwrightvn.com/wp-login.php" method="post">
+			<p>
+				<label for="user_login">Username or Email Address</label>
+				<input type="text" name="log" id="user_login" aria-describedby="login-message" class="input" value="" size="20" autocapitalize="off" autocomplete="username" required="required">
+			<div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div></p>
+
+			<div class="user-pass-wrap">
+				<label for="user_pass">Password</label>
+				<div class="wp-pwd">
+					<input type="password" name="pwd" id="user_pass" aria-describedby="login-message" class="input password-input" value="" size="20" autocomplete="current-password" spellcheck="false" required="required">
+					<div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div><button type="button" class="button button-secondary wp-hide-pw hide-if-no-js" data-toggle="0" aria-label="Show password">
+						<span class="dashicons dashicons-visibility" aria-hidden="true"></span>
+					</button>
+				</div>
+			</div>
+						<p class="forgetmenot"><input name="rememberme" type="checkbox" id="rememberme" value="forever"> <label for="rememberme">Remember Me</label></p>
+			<p class="submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Log In">
+									<input type="hidden" name="redirect_to" value="https://pw-practice-dev.playwrightvn.com/wp-admin/">
+									<input type="hidden" name="testcookie" value="1">
+			</p>
+		</form>
+
+cookie = 
+
+wordpress_sec_e778134cbff8432635b7b4b45a7ba56c=a101%7C1753807878%7Ci7N9MLstVCTtM3gSTnBPHpeLj7YdQ4O5siFhYb9Y3hZ%7C6bc89769ebeed3bd1e9af763fd22b869ce9faaa36fe5a9e848e41144611e667e
+wordpress_test_cookie=WP%20Cookie%20check
+wordpress_logged_in_e778134cbff8432635b7b4b45a7ba56c=a101%7C1753807878%7Ci7N9MLstVCTtM3gSTnBPHpeLj7YdQ4O5siFhYb9Y3hZ%7C766404a70311efb4a047440764039dd11d395e475cac89d4a20e107d21e14271
+pw-practice-dev.playwrightvn.com
+wp-settings-time-60=1753635081
